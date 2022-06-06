@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.homework_gb_6.Controller">
+    <Button fx:id="buttonSend" layoutX="512.0" layoutY="360.0" mnemonicParsing="false" onAction="#sendMessage" text="Отправить!" />
+    <TextField fx:id="textField" layoutX="10.0" layoutY="360.0" prefHeight="27.0" prefWidth="502.0" />
+    <TextArea fx:id="textArea" editable="false" layoutX="10.0" layoutY="14.0" prefHeight="332.0" prefWidth="580.0" />
+</AnchorPane>
